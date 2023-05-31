@@ -1,0 +1,122 @@
+@import './fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'rubik';
+    color: #1D1D1B;
+}
+
+a {
+    text-decoration: none;
+    color: #1D1D1B;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.btn {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    background: #27AE60;
+    padding: 20px 36px;
+    border-radius: 8px;
+    border: none;
+}
+
+.container {
+    width: 1420px;
+    margin: 0 auto;
+}
+
+/* hero */
+.hero {
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 186px;
+}
+
+.header {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    margin: 0 0 320px;
+    padding-top: 30px;
+}
+
+.header .menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+    font-size: 16px;
+}
+
+.header .menu .menu-link:hover {
+    color: #27AE60;
+}
+
+.hero .title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    width: 700px;
+
+}
+
+.hero .subtitle {
+    font-size: 20px;
+    color: #fff;
+    width: 770px;
+    margin: 30px 0 60px;
+    line-height: 28px;
+}
+
+.hero .block {
+    display: inline-block;
+    background: radial-gradient(#8787877e 30%, transparent 70%);
+    backdrop-filter: blur(3px);
+}
+
+/* services */
+.services {
+    padding: 80px 0;
+}
+.services .wrapper{
+    display: flex;
+    margin-top: 58px;
+    justify-content: space-between;
+}
+
+.services .wrapper .card{
+    border: 1px solid #a8a8a8;
+    border-radius: 8px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 273px;
+}
+
+.services .card .text{
+    font-size: 14px;
+    font-weight: 400;
+color: #393938;
+}
+.services .card .text .accent{
+    color:#27AE60
+}
