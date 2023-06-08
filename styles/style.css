@@ -283,3 +283,125 @@ h2 {
     outline: none;
     border-color: #27AE60;
 }
+/* delivery */
+.delivery .container{
+    width: 1670px;
+    height: 980px;
+    display: flex;
+    justify-self: left;
+}
+.delivery .container .lside .title{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 489px;
+    height: 50px;
+    font-weight: 500px;
+    font-size: 42px;
+    line-height: 50px;
+    color: #1E1E1C;
+}
+.delivery .container .lside .about{
+    margin-bottom: 36px;
+    width: 579px;
+    height: 140px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1E1E1C;
+}
+.delivery .container .lside .instruction .text{
+   margin-bottom: 64px;
+   margin-left: 43px;
+   width: 610px;
+   height: 22px;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 22px;
+   color: #1E1E1C ;
+}
+.delivery .container .lside .instruction .star{
+    margin-right: 20px;
+    position: absolute;
+    margin-top: -82px;
+}
+.delivery .container .lside .relation{
+    display: flex;
+    justify-self: left;
+    margin-bottom: 85px;
+}
+
+.delivery .container .lside .location{
+        width: 340px;
+        height: 200px;
+        background-color: #F8F8F8;
+        padding: 71px 78px 111px;
+        margin-bottom: 20px;
+}
+.delivery .container .lside .location .city{
+    width: 183px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    background-color: yellow;
+    
+}
+.delivery .container .lside .location .neighbourhood{
+    width: 201px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-top:24px;
+}
+.delivery .container .lside .connection{
+    width: 340px;
+    height: 200px;
+    background-color: #F8F8F8;
+    margin-left: 20px;
+    text-align: center;
+} 
+.delivery .container .lside .connection .number{
+    width: 148px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 71px 96px 24px;
+    color: #393838;
+}
+.delivery .container .lside .connection .working-time{
+    width: 220px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #848692;
+    margin-left: 60px;
+}
+/* right side */
+.delivery .container .rside{
+    width: 950px;
+    height: 980px;
+}
+.delivery .container .rside .map{
+    width: 950px;
+    height: 980px;
+    margin-bottom: 65px;
+}
+.delivery .container .rside .del-place{
+    position: absolute;
+    width: 144px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    flex: none;
+    background-color: #27AE60;
+    margin-top:40px ;
+    margin-left: 40px;
+}
+
